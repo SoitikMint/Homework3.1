@@ -5,7 +5,7 @@ public class Main {
         double weight = 98;
         double height = 1.87;
 
-        int mit = service.calculate(weight, height);
-        System.out.println("ИМТ: " + mit);
+        int bmi = service.calculate(weight, height);
+        System.out.println("ИМТ: " + bmi);
     }
 }
